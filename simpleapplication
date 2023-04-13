@@ -1,0 +1,16 @@
+Code:
+
+var http = require('http');
+var Server=http.createServer(function (req, res) 
+{
+    res.write("Hello Anusha");
+    res.end();
+});
+Server.listen(8080);
+console.log("Server Running .... ");
+
+Output : 
+
+http://localhost:8080
+
+Hello Anusha
